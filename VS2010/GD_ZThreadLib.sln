@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GD_ZThreadLib", "GD_ZThreadLib.vcxproj", "{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GD_ZThreadLibTester", "GD_ZThreadLibTester\GD_ZThreadLibTester.vcxproj", "{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461} = {A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}.Debug|Win32.Build.0 = Debug|Win32
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}.Debug|x64.ActiveCfg = Debug|x64
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}.Debug|x64.Build.0 = Debug|x64
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}.Release|Win32.ActiveCfg = Release|Win32
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}.Release|Win32.Build.0 = Release|Win32
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}.Release|x64.ActiveCfg = Release|x64
+		{A4BD8CD3-DFEA-4B86-8460-027FE4DF1461}.Release|x64.Build.0 = Release|x64
+		{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}.Debug|Win32.Build.0 = Debug|Win32
+		{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}.Debug|x64.ActiveCfg = Debug|x64
+		{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}.Debug|x64.Build.0 = Debug|x64
+		{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}.Release|Win32.ActiveCfg = Release|Win32
+		{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}.Release|Win32.Build.0 = Release|Win32
+		{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}.Release|x64.ActiveCfg = Release|x64
+		{5115CBDB-B2A1-4C45-AE0F-6471DBF3C412}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
